@@ -2288,7 +2288,7 @@ alpha.sendMessage(from,  btn1, MessageType.buttonsMessage,{
 
 break
 case 'shop':
-koko = `62887435047326@s.whatsapp.net`
+koko = `6289668014332@s.whatsapp.net`
 			let content1 = fs.readFileSync(`image/${thumbnail}`)
 const media1 = await alpha.prepareMessage(from, content1, MessageType.location, {thumbnail: fs.readFileSync(`image/${thumbnail}`)})
 let bacotlu1 = media1.message["ephemeralMessage"] ? media1.message.ephemeralMessage : media1
@@ -5878,7 +5878,7 @@ break
           for (let hui of banned) {
             teks += `│+  @${hui.split('@')[0]}\n`
           }
-          teks += `│+ Total : ${banned.length}\n╰──────「 *ALPHA BOT* 」────`
+          teks += `│+ Total : ${banned.length}\n╰──────「 *EIMI FUKADA* 」────`
           alpha.sendMessage(from, teks.trim(), extendedText, { quoted: mek, contextInfo: { "mentionedJid": [hui] } })
           break
  		case 'ban': case 'banned': case 'block':
