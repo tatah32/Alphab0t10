@@ -4,7 +4,7 @@
 	あ YANG BELUM PAHAM CAR RUN DI HEROKU TONTON AJA VIDEO SEBELUMNYA
 	あ FITUR JUALAN TELAH DI HAPUS
 	
-	あ JASA RUN HEROKU BISA PC wa.me/62887435047326 BIAR BOT NYA GAK TERLALU DELAY
+	あ JASA RUN HEROKU BISA PC wa.me/6289668014332 BIAR BOT NYA GAK TERLALU DELAY
 	
 */   
 const
@@ -162,7 +162,7 @@ fthumb = setting.fakethumb
 hit_today = []
 blocked = []
 ban = []
-limitawal = "50"
+limitawal = "20"
 gcounttprem = "55" 
 gcounttuser = "100" 
 
@@ -216,9 +216,9 @@ memberwin = 1
 memberlose = 1 
 
 //Credit For 404 SQUAD ( Gk usah di hapus mek)
-//Lingz
-//Felix
-//Lenz
+//Tata
+//Eimi Fukada
+//Jordy
 //Arya
 const uang = JSON.parse(fs.readFileSync('./database/user/uang.json'))
 const ikan = JSON.parse(fs.readFileSync('./database/user/ikan.json'))
@@ -578,7 +578,7 @@ const addLevelingLevel = (sender, amount) => {
                 return uang[position].uang
             }
         }
-					//MANCING FUNCTION BY TAUFIK - KUN
+					//MANCING FUNCTION BY TATA - KUN
         const addIkan = (sender, amount) => {
         let position = false
         Object.keys(ikan).forEach((i) => {
@@ -636,7 +636,7 @@ return ikan[position].id
         }
     		//END OF MANCING FUNCTION
 
-//PLANET GOO FUNCTION BY RIFAI
+//PLANET GOO FUNCTION BY TATA
         const addPlanet = (sender, amount) => {
         let position = false
         Object.keys(planet).forEach((i) => {
@@ -693,7 +693,7 @@ return planet[position].id
             }
         }
     		//AKHIRNYA SELESEI NI GO PLANET (◡ ω ◡)
-    //by ARYA & FELIX
+    //by TATA & EIMI FUKADA
 //mining coal
         const addCoal = (sender, amount) => {
         let position = false
@@ -2228,7 +2228,7 @@ ini_anu =`${ucapannya2} @${sender.split('@')[0]}
 *あ Speed :* _${latensii.toFixed(4)} Second_
 *あ Runtime :* _${kyun(anunya)}_
 *あ Battery :* _${isBattre}_
-*あ Charging :* _${isCharge}_
+*あ Charging :* _${isCharge}_ ⚡
 
 			「 *YOU INFO* 」
 
